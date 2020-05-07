@@ -1,13 +1,13 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/testcafe-commonjs-chai-assert/issues"
+    "url": "https://github.com/e2e-boilerplate/testcafe-commonjs-chai-expect/issues"
   },
   "dependencies": {
     "chai": "4.2.0",
     "testcafe": "1.8.4"
   },
-  "description": "TestCafe end-to-end test automation boilerplate. Using Commonjs, Chai and Assert.",
+  "description": "TestCafé end-to-end test automation boilerplate. Using Commonjs, Chai and Expect.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -20,20 +20,20 @@
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/testcafe-commonjs-chai-assert#readme",
+  "homepage": "https://github.com/e2e-boilerplate/testcafe-commonjs-chai-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
-    "assert",
     "boilerplate",
     "chai",
     "commonjs",
     "e2e",
     "e2e tests",
     "example",
+    "expect",
     "integration test",
     "testcafe"
   ],
@@ -43,10 +43,10 @@
       "prettier --write"
     ]
   },
-  "name": "testcafe-commonjs-chai-assert",
+  "name": "testcafe-commonjs-chai-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/testcafe-commonjs-chai-assert.git"
+    "url": "git+https://github.com/e2e-boilerplate/testcafe-commonjs-chai-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
